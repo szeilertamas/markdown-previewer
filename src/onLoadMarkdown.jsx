@@ -46,7 +46,7 @@ As someone wise once said:
 
 Here's a project logo to give you some inspiration:
 
-![Project Logo](./markdown.png)
+![Project Logo](https://kirkstrobeck.github.io/whatismarkdown.com/img/markdown.png)
 
 ## Bolded Text
 
