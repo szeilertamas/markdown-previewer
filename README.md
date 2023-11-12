@@ -1,8 +1,28 @@
-# React + Vite
+# Markdown Previewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple Markdown Previewer that allows users to input Markdown text in an editor and preview the rendered HTML output. It is built using React and utilizes the `marked` library for converting Markdown to HTML and `DOMPurify` for sanitizing the HTML output.
 
-Currently, two official plugins are available:
+You can view this project live here: https://szeilertamas.github.io/markdown-previewer/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Markdown Editor:** Input your Markdown text in the provided editor.
+- **Live Preview:** See the live preview of the rendered HTML as you type.
+
+   ## Project Structure
+
+- **index.html:** HTML file containing the root element and script references.
+- **main.jsx:** Entry point for the React application, rendering the App component.
+- **App.jsx:** Main component containing the Markdown editor and previewer.
+- **onLoadMarkdown.js:** Module exporting default Markdown content for initial loading.
+- **App.css, index.css:** Stylesheets for the components.
+
+## Built With
+
+- [React](https://reactjs.org/) - JavaScript library for building user interfaces.
+- [marked](https://marked.js.org/) - Markdown parser and compiler.
+- [DOMPurify](https://github.com/cure53/DOMPurify) - DOM-only, super-fast, and uber-tolerant XSS sanitizer.
+
+## Acknowledgments
+
+This project was created as a part of FreeCodeCamp Front End Libraries Certification.
