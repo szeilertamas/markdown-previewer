@@ -8,8 +8,8 @@
 }
 
 #editor {
-  background-color: ghostwhite;
-  border-radius: 2px;
+  background-color: #d7e6ea;
+  border-radius: 4px;
   padding: 5px;
   font-size: 16px;
   min-width: 50vw;
@@ -18,9 +18,9 @@
 }
 
 #preview {
-  background-color: ghostwhite;
+  background-color: #d7e6ea;
   color: black;
-  border-radius: 2px;
+  border-radius: 4px;
   padding: 10px;
   min-width: 50vw;
   min-height: 30vh;
